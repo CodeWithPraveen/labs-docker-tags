@@ -1,7 +1,7 @@
 ﻿namespace BrezyWeather.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("v{version:apiVersion}/[controller]")]
 [ApiVersion("1.0")]
 public class WeatherController : ControllerBase
 {

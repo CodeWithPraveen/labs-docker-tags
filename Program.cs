@@ -20,7 +20,7 @@ builder.Services.AddApiVersioning(setupAction =>
 {
     setupAction.AssumeDefaultVersionWhenUnspecified = true;
     setupAction.DefaultApiVersion = new ApiVersion(1, 0);
-    setupAction.ApiVersionReader = new QueryStringApiVersionReader();
+    setupAction.ApiVersionReader = new UrlSegmentApiVersionReader();
 });
 
 builder.Services.AddSwaggerGen(s =>

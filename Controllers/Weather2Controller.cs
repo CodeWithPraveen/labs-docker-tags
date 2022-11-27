@@ -1,10 +1,9 @@
 ﻿/*
-using Microsoft.AspNetCore.Mvc;
 
 namespace BrezyWeather.Controllers;
 
 [ApiController]
-[Route("weather")]
+[Route("v{version:apiVersion}/weather")]
 [ApiVersion("2.0")]
 public class Weather2Controller : ControllerBase
 {
@@ -66,7 +65,6 @@ public class Weather2Controller : ControllerBase
 
         return weather;
     }
-
-    
 }
+
 */
