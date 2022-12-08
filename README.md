@@ -24,3 +24,6 @@ It supports two versions - first is the base version and the second is the enhan
 - Familiarity with Docker Hub.
 - Docker Hub account (free) to push and pull Docker images. 
 - Basic understanding of HTTP operations.
+ 
+ ## Learn More & Enroll
+ https://www.udemy.com/labs/manage-docker-image-versions-using-tags-in-docker-hub/
